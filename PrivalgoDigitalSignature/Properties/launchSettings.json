@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PrivalgoDigitalSignature": {
+      "commandName": "Project",
+      "commandLineArgs": "HashSignEncode -d \"{ test }\" -p AzureKeyVault -v \"Url=[SandBoxAPIUrl];KeyName=[KeyName];ClientId=[AzureClientId];ClientSecret=[Secret];\""
+    }
+  }
+}
