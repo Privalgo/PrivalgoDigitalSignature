@@ -60,7 +60,11 @@ internal class Program
                 );
 
 
-            SendMessage(runResult.RawData, runResult.EncodedData);
+            // Only send data to the API if it has been encoded.
+            if (runResult.EncodedData != null)
+            {
+                SendMessage(runResult.RawData, runResult.EncodedData);
+            }
 
             return result;
         }
