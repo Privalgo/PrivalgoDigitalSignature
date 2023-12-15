@@ -1,6 +1,6 @@
 # PrivalgoDigitalSignature
 
-.NET 7 sample project to create a DigitalSignature by hashing, signing and encoding an imput message, adding it to the message before calling a sandbox endpoint.
+.NET 8 sample project to create a DigitalSignature by hashing, signing and encoding an imput message, adding it to the message before calling a sandbox endpoint.
 
 All information provided is provided "as is" and without any implied warranty, representation, condition or otherwise, regarding its accuracy or completeness.
 
@@ -10,7 +10,7 @@ This is sample code for reference only, and for testing the DigitalSignature pro
 
 ## Availability
 
-C# project targetting .NET 7.
+C# project targetting .NET 8.
 
 ``` cmd
 dotnet run -- [command] [arguments]
